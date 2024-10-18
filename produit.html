@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+        
+        * {
+            font-family: "Roboto", sans-serif;
+            box-sizing: border-box;
+        }
+
+        .photo {
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            width: 100vw;
+            object-position: bottom;
+            margin-top: -6vw;
+        }
+
+        .uni{
+        margin-left:1.5vw;
+        margin-top:0px;
+        list-style-type:none;
+        display:grid;
+        grid-template-columns:5.16% 5.16% 5.16% 33.33% 35.3% 2%;
+        column-gap: 1vw;
+        position:relative;
+     }
+     a{
+        text-decoration: none;
+     }
+     .b{
+        color:#505F98;
+        font-size:0.9vw;
+        }
+        .bb{
+         color:#0a1541;
+         font-size:1vw;
+         
+        }
+     .bk{
+        position:relative;
+        color:#37447E;
+        font-weight: bolder;
+        font-size:1.75vw;
+     }
+     .uni button{
+        cursor: pointer;
+        width:8vw;
+        height:90%;
+        background-color: #111B47;
+        color:white;
+        font-size:1vw;
+        border-radius:5px;
+     }
+
+
+
+        footer{
+      padding: 0px 10vw;
+      background-image: url(footer.png);
+     }
+     footer button{
+      cursor: pointer;
+      width:9vw;
+      font-size:1vw;
+      height:2.5vw;
+      background-color:#111B47;
+      color:white;
+
+     }
+      .footy{
+      padding-top: 3vw;
+      display: grid;
+      grid-template-columns: 48% 43% 0%;
+      }
+     .foot{
+      width:25vw;
+      font-size:1.2vw;
+     }
+     .footlin{
+         height:0.1vw;
+         width:80vw;
+         background-color:#6473b6
+        }
+     .unii{
+        padding-top: 1vw;
+        list-style-type:none;
+        display:grid;
+        grid-template-columns:5% 5% 73% 2% 2% 2% 2% 0%;
+        column-gap: 1vw;
+        position:relative;
+        padding-bottom: 3vw;
+     }
+
+     .unii img{
+      width:1vw;
+     }
+     .produit{
+        margin:8vw;
+        display:grid;
+        grid-template-columns:25% 25% 25% 25%;
+        
+     }
+     .pro{
+        padding: 2vw;
+        text-align: center;
+        background-color: #f9f9f9;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+     }
+     .pro img{
+        width:18vw;
+        border-radius: 10px;
+    }
+
+    .pro h4 {
+        color: #111B47;
+        font-size: 1.2vw;
+        margin: 1vw 0;
+    }
+
+    .pro p {
+        color: #505F98;
+        font-size: 1vw;
+    }
+
+    .pro button {
+        cursor: pointer;
+        padding: 0.5vw 1vw;
+        background-color: #111B47;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1vw;
+        transition: background-color 0.3s ease;
+    }
+
+    .pro:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .pro button:hover {
+        background-color: #505F98;
+    }
+    h3{
+        text-align: center;
+        color:#111B47;
+        font-size:2.5vw;
+        background-color: #6473b6;
+        margin-bottom:-3vh;
+    }
+    .marg{
+        margin-top:9vh;
+    }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <header>
+            <nav>
+                <ul class="uni">
+                    <li><a href="home.html" class="b">Home</a></li>
+                    <li><a href="about.html" class="b">About</a></li>
+                    <li><a href="contact.html" class="b">Contact</a></li>
+                    <li><a href="produit.html" class="bb">Produit</a></li>
+                    <li><a href="#" class="bk">Landing</a></li>
+                    <li><button class="baka" href="#">Buy Now</button></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section>
+        <h3 class="marg">Nos panneaux solaire</h3>
+    <div class="produit">
+        <div class="pro">
+            <img src="panneau-solaire-portable-ecoflow-110w-mc4_cDZfwL8P7ZXStMk5p0hV_IMAGE1-1 (12).webp" alt="">
+            <h4>Panneau solaire portable EcoFlow 110W (MC4)</h4>
+            <p>prix:xx DH</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="pro">
+            <img src="panneau-solaire-ja-solar_Vsqotyy1Zyi7LE639gmr_GK.webp" alt="">
+            <h4>Panneau solaire JA SOLAR</h4>
+            <p>prix:xx DH</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="pro">
+            <img src="panneaux-solaire-canadien-solar_GxmqrzTX1rqirKKXPhLm_IMAGE1 (31).webp" alt="">
+            <h4>Panneaux solaire Canadien solar
+            </h4>
+            <p>prix:xx DH</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="pro">
+            <img src="panneau-solaire-trina-solar_8AvPtHoNrkpDDRz9Lfii_DD.webp" alt="">
+            <h4>Panneau solaire TRINA SOLAR</h4>
+            <p>prix:xx DH</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <h3>Nos batteries</h3>
+    <div class="produit">
+        <div class="pro">
+            <img src="batterie-solaire-outdo-gel-12v_EwY1JFZHXDNcNQ4DcdcJ_IMAGE1-4 (22).webp" alt="">
+            <h4>Batterie solaire OUTDO GEL 12V</h4>
+            <p>prix:xx DH</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="pro">
+            <img src="batterie-powerkit-5kwh_vt86mPvY5GpDZ6luXbw6_9.webp" alt="">
+            <h4>BATTERIE POWERKIT 5KWH - Ecoflow</h4>
+            <p>prix:xx DH</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="pro">
+            <img src="batterie-sunlight_fNz3LfLEl3PCcmZbMb0m_IMAGE1-1 (48).webp" alt="">
+            <h4>Batterie SUNLIGHT</h4>
+            <p>prix:xx DH</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="pro">
+            <img src="batterie-brusol-gel-12v_IS6pjeY7TDTzfRymLbqm_LL.webp" alt="">
+            <h4>Batterie BRUSOL GEL 12v</h4>
+            <p>prix:xx DH</p>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+  </section>
+    <footer>
+      <div class="footy">
+          <div class="foot">©2024 EcoTech</div>
+          <div class="foot">Landing</div>
+          <div class="foot">
+              <button>Purchase Now</button>
+          </div>
+      </div>
+      <br>
+      <div class="footlin"></div>
+      <br>
+      <ul class="unii contenu">
+          <li><a href="home.html" class="b" style="color:#111B47">Home</a></li>
+          <li><a href="about.html" class="b" style="color:#111B47">About</a></li>
+          <li><a href="home.html" class="b" style="color:#111B47">Contact</a></li>
+          <li><img src="Instagram Copy 4.svg"></li>
+          <li><img src="Instagram Copy 2.png" alt=""></li>
+          <li><img src="Instagram Copy 3.svg" alt=""></li>
+          <li><img src="Instagram Copy.svg" alt=""></li>
+          <li><img src="Instagram.svg" alt=""></li>
+      </ul>
+  </footer>
+</body>
+</html>

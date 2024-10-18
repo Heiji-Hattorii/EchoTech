@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+        
+        * {
+            font-family: "Roboto", sans-serif;
+            box-sizing: border-box;
+        }
+
+        .photo {
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            width: 100vw;
+            object-position: bottom;
+            margin-top: -6vw;
+        }
+
+        .uni {
+            margin-left: 1.5vw;
+            margin-top: 0px;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 5.16% 5.16% 5.16% 33.33% 35.3% 3.3%;
+            column-gap: 1vw;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .b {
+            color: #fff;
+            font-size: 0.9vw;
+        }
+        .bb{
+         color:#0a1541;
+         font-size:1vw;
+         
+        }
+
+        .bk {
+            position: relative;
+            color: #37447E;
+            font-weight: bolder;
+            font-size: 1.75vw;
+        }
+
+        .uni button {
+            cursor: pointer;
+            width: 8vw;
+            height: 90%;
+            background-color: #111B47;
+            color: white;
+            font-size: 1vw;
+            border-radius: 5px;
+        }
+
+        .hero-form {
+            position: relative;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(80, 95, 152, 0.3);
+            width: 70vw;
+            height: auto;
+            margin: 5vw auto;
+            border-radius: 10px;
+            padding: 1vw 6vw 4vw 6vw ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .containerf {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 10vw;;
+            width: 100%;
+        }
+      .containerono{
+      width:80%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:10vw 10vw;
+     }
+        .contenu {
+            width: 45%;
+        }
+
+        .contenu h4 {
+            color: #091133;
+            font-size: 2vw;
+        }
+
+        .contenu p {
+            font-size: 1.2vw;
+            color: #505F98;
+            margin-bottom: 4vw;
+        }
+
+        form input, form textarea {
+           font-size: 1.2vw;
+            width: 22vw;
+            padding: 0.7vw;
+            margin-bottom: 1.5vw;
+            background-color:#E7ECFF;
+            border: 1px solid #E7ECFF;
+        }
+        form textarea{
+         height:16vh;
+        }
+
+        form button {
+            font-size: 1.2vw;
+            text-align: center;
+            width: 22vw;
+            height:2.8vw;
+            background-color: #E7ECFF;
+            color: #091133;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        form button:hover {
+            background-color: #505F98;
+        }
+
+        .image {
+            width: 30vw;
+            height: auto;
+        }
+        .contact-info {
+            display: inline;
+            margin-top: 2vw; 
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-right: 2vw; 
+        }
+
+        .contact-item img {
+            margin-right:2vw; 
+            width: 1.5vw; 
+            height: auto;
+        }
+        .contact-item p{
+         font-size: 1.2vw;
+            color: #505F98;
+
+        }
+
+        footer{
+      padding: 0px 10vw;
+      background-image: url(footer.png);
+     }
+     footer button{
+      cursor: pointer;
+      width:9vw;
+      font-size:1vw;
+      height:2.5vw;
+      background-color:#111B47;
+      color:white;
+
+     }
+      .footy{
+      padding-top: 3vw;
+      display: grid;
+      grid-template-columns: 48% 43% 0%;
+      }
+     .foot{
+      width:25vw;
+      font-size:1.2vw;
+     }
+     .footlin{
+         height:0.1vw;
+         width:80vw;
+         background-color:#6473b6
+        }
+     .unii{
+        padding-top: 1vw;
+        list-style-type:none;
+        display:grid;
+        grid-template-columns:10% 10% 174% 5% 5% 5% 5% 5%;
+        column-gap: 1vw;
+        position:relative;
+        padding-bottom: 3vw;
+     }
+
+     .unii img{
+      width:1vw;
+     }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="Frame last.svg" class="photo">
+        <header>
+            <nav>
+                <ul class="uni">
+                    <li><a href="home.html" class="b">Home</a></li>
+                    <li><a href="about.html" class="b">About</a></li>
+                    <li><a href="contact.html" class="bb">Contact</a></li>
+                    <li><a href="produit.html" class="b">Produit</a></li>
+                    <li><a href="#" class="bk">Landing</a></li>
+                    <li><button class="baka" href="#">Buy Now</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero-form">
+            <div class="containerf">
+                <div class="contenu">
+                    <h4>Contact Us</h4>
+                    <p>How can we help you?</p>
+                    <form method="post">
+                        <input type="text" placeholder="Your name">
+                        <input type="email" placeholder="Your email">
+                        <textarea placeholder="Your message"></textarea>
+                        <button type="submit">SUBMIT</button>
+                    </form>
+                </div>
+                <div>
+                <img src="contact-us-illustration-download-in-svg-png-gif-file-formats--call-logo-laptop-helping-customer-service-pack-network-communication-illustrations-2912020 1.svg" alt="Contact"  class="image">
+
+               <div class="contact-info ">
+                   <div class="contact-item">
+                       <img src="téléchargement (2) 1.svg" alt="tel">
+                       <p>+216 606060606</p>
+                   </div>
+                   <div class="contact-item">
+                       <img src="images (1) 1.svg" alt="email">
+                       <p>EcoTech@gmail.com</p>
+                   </div>
+                   <div class="contact-item">
+                       <img src="téléchargement (3) 1.svg" alt="localisation">
+                       <p>Tokyo, Japon</p>
+                   </div>
+               </div>
+            </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="footy">
+          <div class="foot">©2024 EcoTech</div>
+          <div class="foot">Landing</div>
+          <div class="foot">
+              <button>Purchase Now</button>
+          </div>
+      </div>
+      <br>
+      <div class="footlin"></div>
+      <br>
+      <ul class="unii contenu">
+          <li><a href="home.html" class="b" style="color:#111B47">Home</a></li>
+          <li><a href="about.html" class="b" style="color:#111B47">About</a></li>
+          <li><a href="home.html" class="b" style="color:#111B47">Contact</a></li>
+          <li><img src="Instagram Copy 4.svg"></li>
+          <li><img src="Instagram Copy 2.png" alt=""></li>
+          <li><img src="Instagram Copy 3.svg" alt=""></li>
+          <li><img src="Instagram Copy.svg" alt=""></li>
+          <li><img src="Instagram.svg" alt=""></li>
+
+      </ul>
+  </footer>
+</body>
+</html>
